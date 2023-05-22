@@ -12,7 +12,9 @@ source=("logos::git+https://github.com/Virbos/logos.git")
 sha256sums=("SKIP")
 
 build() {
-	make -Clogos
+	pushd logos
+	make
+	popd
 }
 
 package() {
