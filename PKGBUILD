@@ -21,6 +21,6 @@ package() {
 	pushd logos
 	mkdir -p "${pkgdir}"/usr/share/virbos/logos/sixel
 	cp -f virbos-*.png virbox.png "${pkgdir}"/usr/share/virbos/logos
-	cp -f $(make getsixels) "${pkgdir}"/usr/share/virbos/logos/sixel
+	cp -f $(make -s getsixels) "${pkgdir}"/usr/share/virbos/logos/sixel
 	popd
 }
