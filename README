@@ -1,0 +1,6 @@
+Logos and branding for Virbos.
+
+We also have a sixel (graphics in the terminal) buildsystem.
+To use it, just run `make` (GNU make). You can get the names
+of the generated sixels by running `make getsixels`, and you
+can clean the directory of all sixels by running `make clean`.

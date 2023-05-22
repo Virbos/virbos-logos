@@ -1,1 +1,7 @@
 *.sixel
+
+# package
+*.pkg.tar.*
+pkg/
+src/
+logos/
